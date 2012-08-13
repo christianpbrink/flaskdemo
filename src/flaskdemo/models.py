@@ -5,13 +5,12 @@ from database import Base
 
 class Contact(Base):
   __tablename__ = 'contact'
-  id     = Column(Integer, primary_key=True)
-  name   = Column(String)
+  name   = Column(String, primary_key=True)
   number = Column(String)
 
   def __init__(self, name, number):
-    self.name   = date
-    self.number = value
+    self.name   = name
+    self.number = number
 
   def __repr__(self):
     s = "<Contact '{}' with phone number '{}'>"

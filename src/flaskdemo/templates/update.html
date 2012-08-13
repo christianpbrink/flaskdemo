@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+  <form id="update" action="update" method="POST">
+    <form>
+      <table>
+        <tr>
+          <td class="label">Name:</td>
+          <td class="input"><input type="text" name="name" />
+        </tr>
+        <tr>
+          <td class="label">Number:</td>
+          <td class="input"><input type="text" name="number" />
+        </tr>
+      </table>
+      <input type="submit" value="Create or Update Contact" /> 
+</form>
+
+{% endblock %}
