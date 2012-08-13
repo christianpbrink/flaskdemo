@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+  <table id="contacts">
+    <thead>
+      <td class="name">Name</td>
+      <td class="number">Number</td>
+    </thead>
+    <tbody>
+    {% for name, number in contacts %}
+      <tr>
+        <td class="name">{{ name }}</td>
+        <td class="number">{{ number }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table> <!-- end table 'contacts' -->
+
+{% endblock %}
