@@ -1,0 +1,17 @@
+table td
+{
+  padding: 0 8px;
+}
+
+table td.name
+{
+  background-color: #EDF5F9;
+}
+
+
+table thead td
+{
+  font-weight: bold;
+  padding: 3px 8px;
+}
+

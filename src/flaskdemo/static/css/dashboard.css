@@ -1,0 +1,94 @@
+body
+{
+  font: 12px sans-serif;
+  color: black;
+}
+
+form#login *
+{
+  float: left;
+  clear: left;
+}
+
+form
+{
+  float: left;
+}
+
+.metrics-block
+{
+  float: left;
+  clear: left;
+  padding: 10px;
+}
+
+
+
+.metrics-block .title
+{
+  font-size: 14px;
+  padding: 0 0 0px 5px;
+  float: left;
+  clear: both;
+}
+
+.metrics-block .name
+{
+  padding-left: 5px;
+}
+
+.metric
+{
+  padding: 3px;
+  margin: 1px;
+}
+
+table.metric
+{
+  width: 650px;
+}
+
+div.metric
+{
+  float: left;
+  clear: left;
+}
+
+.metric:nth-child(odd)
+{
+  background-color: #EDF5F9;
+}
+
+
+.metric .name
+{
+  width: 300px;
+}
+
+
+div.metric .name,
+div.metric .value
+{
+  float: left;
+}
+
+.metric .value
+{
+  clear: none;
+  width: 80px;
+  text-align: left;
+  padding: 3px;
+}
+
+
+thead,
+thead tr,
+thead tr td
+{
+  height: 20px;
+}
+
+.heading
+{
+  font-weight: bold;
+}
